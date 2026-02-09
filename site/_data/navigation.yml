@@ -1,0 +1,9 @@
+main:
+  - title: "Accueil"
+    url: "/accueil/"
+  - title: "Articles"
+    url: "/articles/"
+  - title: "Projets"
+    url: "/projets/"
+  - title: "Cheetsheets"
+    url: "/cheatsheets/"
