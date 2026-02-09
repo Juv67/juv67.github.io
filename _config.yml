@@ -20,7 +20,7 @@
 
 title: ABAT
 subtitle: Another Blog About Tech
-logo : "/assets/images/logo.png"
+#logo : "/assets/images/logo.png"
 email: juv.dev@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Blog pour partager les différents projets techs en cours de réalisation. 
@@ -47,18 +47,17 @@ defaults:
   - scope:
       path: " "
       type: "posts"
-      values:
+    values:
         layout: "single"
         show_date: true
         date_format: "%d %B %Y"
         read_time: true
         share: true
-        enable_copy_code_button: true
   # _pages
   - scope:
       path: " "
       type: "pages"
-      values:
+    values:
         layout: "single"
 # Exclude from processing.
 # The following items will not be processed, by default.
